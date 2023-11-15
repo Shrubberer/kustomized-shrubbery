@@ -1,0 +1,12 @@
+resources:
+- ../../base/
+
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+labels:
+- includeSelectors: true
+  pairs:
+    environment: test
+patches:
+- path: test.yaml

@@ -1,0 +1,9 @@
+# overlays/prod/kustomization.yaml
+resources:
+  - ../../base/
+
+commonLabels:
+  environment: prod
+
+patchesStrategicMerge:
+  - prod.yaml

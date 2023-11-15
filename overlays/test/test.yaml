@@ -1,0 +1,10 @@
+# overlays/test/test.yaml
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: nginx-route
+spec:
+  host: test-nginx-service-kustomize.apps.swtd-ocp4.unilab
+
+
+
