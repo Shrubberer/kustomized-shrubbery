@@ -1,2 +1,2 @@
 # kustomized-shrubbery
-a well trimmed kustomized shrubbery
+Simple kustomize example
